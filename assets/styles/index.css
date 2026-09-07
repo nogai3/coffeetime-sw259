@@ -8,6 +8,8 @@ html {
 
 body {
     background-color: #FBFAF6;
+    scrollbar-width: thin;
+    scrollbar-color: #FBFAF6 #FBFAF6;
 }
 
 header {
@@ -27,15 +29,15 @@ header nav ul {
     gap: 25px;
 }
 
-header .logo {
+header, footer .logo {
     font-family: 'Stalinist One', monospace;
-    font-size: 40px;
+    font-size: 32px;
     color: #000000;
 }
 
 header a {
     font-family: 'Monomakh', monospace;
-    font-size: 40px;
+    font-size: 32px;
     color: #000000;
     text-decoration: none;
 }
@@ -275,6 +277,38 @@ header a:hover {
   color: #333333;
   margin: 0;
 }
+
+.menu_category {
+    display: flex;
+    gap: 15px;
+    margin-top: 38px
+}
+
+.number {
+    color: #000000;
+    font-family: 'Ubuntu', monospace;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.category_name {
+    font-family: 'Ubuntu', monospace;
+    font-weight: 400;
+    font-size: 48px;
+    margin-top: -10px;
+}
+
+footer {
+    display: flex;
+    background-color: #f4f4f4;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    margin-top: -10px;
+    margin-left: -10px;
+}
+
+
 
 @media (max-width: 900px) {
   .menu-grid {
