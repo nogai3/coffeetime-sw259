@@ -2,6 +2,14 @@
     background-color: #FBFAF6;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+    background-color: #FBFAF6;
+}
+
 header {
     display: flex;
     background-color: #f4f4f4;
@@ -44,11 +52,6 @@ header a:hover {
     padding: 0 20px;
     box-sizing: border-box;
     margin-top: 50px;
-}
-
-.text-block {
-    display: flex;
-    flex-direction: column;
 }
 
 .content h1 {
@@ -114,25 +117,173 @@ header a:hover {
 }
 
 .barista_box {
+    width: 100%;
     background-color: #DCE9E2;
-    color: #000000;
-    margin-top: 48px;
-    padding-top: 17px;
-    padding-bottom: 2px;
-    padding-left: -10px;
+    padding-bottom: 25px;
 }
 
 .barista_box h3 {
     font-family: 'Ubuntu', monospace;
     font-size: 24px;
+    font-weight: 400;
     color: #173D35;
-    margin-left: 39px;
+    margin-left: 25px;
 }
 
 .barista_box h2 {
     font-family: 'Roboto Flex', monospace;
     font-size: 64px;
-    font-style:normal;
+    font-style: normal;
+    font-weight: 400;
+    margin-left: 48px;
     margin-top: -25px;
+}
+
+.barista_box p {
+    font-family: 'Roboto Flex', monospace;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 350;
+    margin-top: -48px;
     margin-left: 64px;
+}
+
+.barista_box .price {
+    position: absolute;
+    right: 48px;
+    transform: translateY(-60%);
+    font-family: 'Roboto Flex', monospace;
+    font-size: 48px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.text-block {
+    display: flex;
+    flex-direction: column;
+}
+
+.selector {
+    display: flex;
+    background-color: #FBFAF6;
+    justify-content: space-between;
+    align-items: center;    
+    position: sticky;
+    margin-top: 25px;
+    margin-left: 22px;
+    margin-right: 22px;
+    border: 2px solid #000000;
+    border-left: none;
+    border-right: none;
+}
+
+.selector nav ul {
+    list-style: none;
+    display: flex;
+    gap: 0px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.selector button {
+    font-family: 'Ubuntu', monospace;
+    font-weight: 400;
+    font-size: 23px;
+    flex: 1;
+    height: 56px;
+    margin: 0;
+    cursor: pointer;
+    background-color: #FBFAF6;
+    box-sizing: border-box;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.selector .first {
+    border-top: none;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+}
+
+.selector .second {
+    border-left: 2px solid #000000;
+
+    border-top: none;
+    border-bottom: none;
+    border-right: none;
+}
+
+.selector .third {
+    border-left: 2px solid #000000;
+    border-right: 2px solid #000000;
+
+    border-top: none;
+    border-bottom: none;
+}
+
+.menu-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  background-color: #FBFAF6;
+  margin-left: 22px;
+  margin-right: 22px;
+  box-sizing: border-box;
+  gap: 1px;
+  background-color: #000000;
+
+  border: 1px solid #000000;
+  border-left: none;
+  border-right: none;
+}
+
+.menu-item {
+  background-color: #FBFAF6;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.item-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 16px;
+}
+
+.item-name {
+  font-family: 'Ubuntu', monospace;
+  font-size: 24px;
+  font-weight: 400;
+  color: #000000;
+}
+
+.item-price {
+  font-family: 'Ubuntu', monospace;
+  font-size: 24px;
+  font-weight: normal;
+  color: #000000;
+  white-space: nowrap;
+}
+
+.item-desc {
+  font-family: 'Roboto Flex', monospace;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #333333;
+  margin: 0;
+}
+
+@media (max-width: 900px) {
+  .menu-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .menu-grid {
+    grid-template-columns: 1fr;
+  }
 }

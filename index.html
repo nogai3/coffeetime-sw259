@@ -8,12 +8,12 @@
 </head>
 <body>
     <main>
-        <header>
+        <header id="main">
             <h1 class="logo">CoffeTime</h1>
             <nav>
                 <ul>
-                    <li><a href="">Главная</a></li>
-                    <li><a href="">Меню</a></li>
+                    <li><a href="#main">Главная</a></li>
+                    <li><a href="#menu">Меню</a></li>
                     <li><a href="">О нас</a></li>
                 </ul>
             </nav>
@@ -24,12 +24,169 @@
                 <h1 class="day">ДЕНЬ</h1>
                 <p class="desc">Спешелти кофе, авторские напитки и чайная карта - <br>для медленных встреч и быстрых пауз</p>
                 <div class="buttons">
-                    <button class="first_btn">Открыть меню ↓</button>
+                    <a href="#menu"><button class="first_btn">Открыть меню ↓</button></a>
                     <button class="second_btn">Сделать заказ</button>
                 </div>
             </div>
             <img class="coffe_main" alt="coffee_main" src="assets/images/coffe_main.png">
         </div>
+        <div class="content" id="menu">
+            <div class="barista_box">
+                <h3 class="text-block">ВЫБОР БАРИСТА</h3>
+                <h2 class="text-block">Капучино</h2>
+                <p class="text-block">Классический эспрессо с пышной молочной пеной, бархатистой<br>текстурой и мягким сливочным вкусом.</p>
+                <h2 class="price">2100 ₸</h2>
+            </div>
+        </div>
+        <div class="selector">
+            <nav>
+                <ul>
+                    <li><button class="first">Классический кофе</button></li>
+                    <li><button class="second">Альтернатива</button></li>
+                    <li><button class="third">Чайная карта</button></li>
+                </ul>
+            </nav>
+        </div>
+        <h2>01</h2>
+        <h1>Классический кофе</h1>
+        <div class="menu-grid">
+            <div class="menu-item">
+                <div class="item-header">
+                <span class="item-name">Капучино</span>
+                <span class="item-price">2100 ₸</span>
+                </div>
+                <p class="item-desc">Классический эспрессо с пышной молочной пеной, бархатистой текстурой и мягким сливочным вкусом.</p>
+            </div>
+            <div class="menu-item">
+                <div class="item-header">
+                <span class="item-name">Латте</span>
+                <span class="item-price">1900 ₸</span>
+                </div>
+                <p class="item-desc">Нежный молочно-кофейный напиток с легкой пенкой, где преобладает вкус молока.</p>
+            </div>
+            <div class="menu-item">
+                <div class="item-header">
+                <span class="item-name">Айс Американо</span>
+                <span class="item-price">1800 ₸</span>
+                </div>
+                <p class="item-desc">Освежающий микс эспрессо и ледяной воды, быстро тонизирующий в жару.</p>
+            </div>
+
+            <div class="menu-item">
+                <div class="item-header">
+                <span class="item-name">Эспрессо</span>
+                <span class="item-price">1000 ₸</span>
+                </div>
+                <p class="item-desc">Концентрированный и плотный напиток с глубоким вкусом, плотной пенкой крема и приятной горчинкой.</p>
+            </div>
+            <div class="menu-item">
+                <div class="item-header">
+                <span class="item-name">Флет Уайт</span>
+                <span class="item-price">1500 ₸</span>
+                </div>
+                <p class="item-desc">Насыщенный напиток на двойном эспрессо с бархатистой микропеной и ярким вкусом кофе.</p>
+            </div>
+            <div class="menu-item">
+                <div class="item-header">
+                <span class="item-name">Айс Латте</span>
+                <span class="item-price">2200 ₸</span>
+                </div>
+                <p class="item-desc">Охлажденный кофейно-молочный напиток со льдом и мягким сливочным вкусом.</p>
+            </div>
+
+            <div class="menu-item">
+                <div class="item-header">
+                <span class="item-name">Американо</span>
+                <span class="item-price">1500 ₸</span>
+                </div>
+                <p class="item-desc">Эспрессо, разбавленный горячей водой, для любителей чистого кофейного вкуса в большем объеме.</p>
+            </div>
+            <div class="menu-item">
+                <div class="item-header">
+                <span class="item-name">Раф</span>
+                <span class="item-price">2000 ₸</span>
+                </div>
+                <p class="item-desc">Десертный напиток на взбитых с эспрессо сливках с ванильным вкусом и текстурой талого мороженого.</p>
+            </div>
+            <div class="menu-item">
+                <div class="item-header">
+                <span class="item-name">Айс Мокка</span>
+                <span class="item-price">1000 ₸</span>
+                </div>
+                <p class="item-desc">Холодный десертный коктейль, сочетающий терпкий эспрессо, шоколадный соус и молоко со льдом.</p>
+            </div>
+        </div>
+        <h2>02</h2>
+        <h1>Альтернатива</h1>
+        <div class="menu-grid">
+            <div class="menu-item">
+                <div class="item-header">
+                <span class="item-name">Матча-Латте</span>
+                <span class="item-price">1490 ₸</span>
+                </div>
+                <p class="item-desc">Японский зелёный чай тёртого помола с мягким травянистым вкусом, естественной сладостью и взбитым молоком.</p>
+            </div>
+            <div class="menu-item">
+                <div class="item-header">
+                <span class="item-name">Чай Масала</span>
+                <span class="item-price">1290 ₸</span>
+                </div>
+                <p class="item-desc">Пряный индийский напиток на основе чёрного чая, горячего молока и смеси согревающих специй: кардамона, корицы и имбиря.</p>
+            </div>
+            <div class="menu-item">
+                <div class="item-header">
+                <span class="item-name">Травяной сбор с ягодами</span>
+                <span class="item-price">1190 ₸</span>
+                </div>
+                <p class="item-desc">Ароматный заварной напиток на основе чабреца, мяты и сушёных лесных ягод с лёгкой ягодной кислинкой.</p>
+            </div>
+
+            <div class="menu-item">
+                <div class="item-header">
+                <span class="item-name">Гречишный чай (Ку Цяо)</span>
+                <span class="item-price">1190 ₸</span>
+                </div>
+                <p class="item-desc">Напиток из обжаренных зёрен чёрной татарской гречихи с уютным ароматом овсяного печенья и сливочным вкусом.</p>
+            </div>
+            <div class="menu-item">
+                <div class="item-header">
+                <span class="item-name">Апельсиновый Бамбл (б/к)</span>
+                <span class="item-price">1590 ₸</span>
+                </div>
+                <p class="item-desc">Освежающий слоистый микс из свежевыжатого апельсинового сока, натурального карамельного сиропа и льда.</p>
+            </div>
+            <div class="menu-item">
+                <div class="item-header">
+                <span class="item-name">Кэроб-Латте</span>
+                <span class="item-price">1390 ₸</span>
+                </div>
+                <p class="item-desc">Сладкий напиток из измельчённых плодов рожкового дерева с горячим молоком, не содержащий кофеина и сахара.</p>
+            </div>
+
+            <div class="menu-item">
+                <div class="item-header">
+                <span class="item-name">Какао на орг. шоколаде</span>
+                <span class="item-price">1390 ₸</span>
+                </div>
+                <p class="item-desc">Густой и согревающий напиток на натуральном какао-порошке со сливочным молоком и глубоким шоколадным вкусом.</p>
+            </div>
+            <div class="menu-item">
+                <div class="item-header">
+                <span class="item-name">Айсти Эрл Грей – Персик</span>
+                <span class="item-price">1390 ₸</span>
+                </div>
+                <p class="item-desc">Холодный чёрный чай с бергамотом, персиковым конфитюром и свежим лимонным соком.</p>
+            </div>
+            <div class="menu-item">
+                <div class="item-header">
+                <span class="item-name">Лимонад «Имбирь-Лайм»</span>
+                <span class="item-price">1490 ₸</span>
+                </div>
+                <p class="item-desc">Яркий авторский лимонад с пикантной имбирной остринкой, свежестью лайма и содовой со льдом.</p>
+            </div>
+        </div>
+        <h2>03</h2>
+        <h1>Чайная карта</h1>
     </main>
 </body>
 </html>
