@@ -1,0 +1,339 @@
+/* Add font files for Stalinist One */
+@font-face {
+  font-family: 'Stalinist One';
+  src: url('fonts/stalinist-one.woff2') format('woff2'),
+       url('fonts/stalinist-one.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Add font files for Monomakh */
+@font-face {
+  font-family: 'Monomakh';
+  src: url('fonts/monomakh.woff2') format('woff2'),
+       url('fonts/monomakh.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Add font files for Roboto Flex */
+@font-face {
+  font-family: 'Roboto Flex';
+  src: url('fonts/roboto-flex.woff2') format('woff2'),
+       url('fonts/roboto-flex.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Add font files for Russo One */
+@font-face {
+  font-family: 'Russo One';
+  src: url('fonts/russo-one.woff2') format('woff2'),
+       url('fonts/russo-one.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Add font files for Merriweather */
+@font-face {
+  font-family: 'Merriweather';
+  src: url('fonts/merriweather.woff2') format('woff2'),
+       url('fonts/merriweather.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+:root {
+  --font-family-stalinist-one: 'Stalinist One', sans-serif;
+  --font-family-monomakh: 'Monomakh', sans-serif;
+  --font-family-roboto: 'Roboto', sans-serif;
+  --font-family-roboto-flex: 'Roboto Flex', sans-serif;
+  --font-family-russo-one: 'Russo One', sans-serif;
+  --font-family-merriweather: 'Merriweather', sans-serif;
+  --text-black: rgba(0, 0, 0, 1);
+  --text-white: rgba(255, 255, 255, 1);
+  --text-rgb-23-61-53: rgba(23, 61, 53, 1);
+}
+
+.text-black {
+  color: var(--text-black);
+}
+
+.text-white {
+  color: var(--text-white);
+}
+
+.text-rgb-23-61-53 {
+  color: var(--text-rgb-23-61-53);
+}
+
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Prototype Links */
+a.prototype-link {
+  text-decoration: none;
+  color: inherit;
+  display: contents;
+}
+
+.webpage-background-3 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  background-color: rgba(251, 250, 246, 1);
+}
+
+.rectangle-1-5 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  background-color: rgba(244, 244, 244, 1);
+}
+
+.text-6 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  text-align: left;
+  font-family: var(--font-family-stalinist-one);
+  font-weight: normal;
+  font-size: 64px;
+  text-decoration: none;
+  text-transform: none;
+  color: var(--text-black);
+}
+
+.text-7 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  text-align: left;
+  font-family: var(--font-family-monomakh);
+  font-weight: normal;
+  font-size: 48px;
+  text-decoration: none;
+  text-transform: none;
+  color: var(--text-black);
+}
+
+.text-8 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  text-align: left;
+  font-family: var(--font-family-monomakh);
+  font-weight: normal;
+  font-size: 48px;
+  text-decoration: none;
+  text-transform: none;
+  color: var(--text-black);
+}
+
+.text-9 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  text-align: left;
+  font-family: var(--font-family-monomakh);
+  font-weight: normal;
+  font-size: 48px;
+  text-decoration: none;
+  text-transform: none;
+  color: var(--text-black);
+}
+
+.header-4 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+}
+
+.rectangle-2-11 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  background-color: rgba(188, 107, 24, 1);
+  border-radius: 50px;
+}
+
+.text-12 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  text-align: left;
+  font-family: var(--font-family-roboto);
+  font-weight: normal;
+  font-size: 48px;
+  text-decoration: none;
+  text-transform: none;
+  color: var(--text-white);
+}
+
+.order-button-10 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+}
+
+.rectangle-3-15 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  background-color: rgba(23, 61, 53, 1);
+  border: 1px solid rgba(222, 222, 222, 1);
+}
+
+.text-16 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  text-align: left;
+  font-family: var(--font-family-roboto-flex);
+  font-weight: normal;
+  font-size: 36px;
+  text-decoration: none;
+  text-transform: none;
+  color: var(--text-white);
+}
+
+.icon-18 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  fill: rgba(254, 247, 255, 1);
+  border: none;
+  outline: none;
+}
+
+.arrow-back {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+}
+
+.menu-button-14 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+}
+
+.rectangle-4-20 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  background-color: rgba(222, 222, 222, 1);
+  border: 1px solid rgba(23, 61, 53, 1);
+}
+
+.text-21 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  text-align: left;
+  font-family: var(--font-family-roboto-flex);
+  font-weight: normal;
+  font-size: 36px;
+  text-decoration: none;
+  text-transform: none;
+  color: var(--text-rgb-23-61-53);
+}
+
+.ordr-button-19 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+}
+
+.text-23 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  text-align: left;
+  font-family: var(--font-family-russo-one);
+  font-weight: normal;
+  font-size: 156px;
+  text-decoration: none;
+  text-transform: none;
+  color: var(--text-black);
+  font-family: var(--font-family-merriweather);
+  font-weight: normal;
+  font-size: 128px;
+  text-decoration: none;
+  text-transform: none;
+  color: var(--text-black);
+}
+
+.text-24 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  text-align: left;
+  font-family: var(--font-family-roboto-flex);
+  font-weight: normal;
+  font-size: 24px;
+  text-decoration: none;
+  text-transform: none;
+  color: var(--text-black);
+}
+
+.rectangle-5-25 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  width: 100%;
+  height: auto;
+}
+
+.title-22 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+}
+
+.main-13 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+}
+
+.page-1-2 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+}
+
+.frame-page-1-1 {
+@media (max-width: 1440px) {
+  .frame-page-1-1 {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+
+@media (max-width: 768px) {
+  .frame-page-1-1 {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  background-color: rgba(255, 255, 255, 1);
+}

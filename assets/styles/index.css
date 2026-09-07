@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Monomakh&family=Roboto+Flex:opsz,wght,XOPQ,XTRA,YOPQ,YTDE,YTFI,YTLC,YTUC@8..144,100..1000,96,468,79,-203,738,514,712&family=Russo+One&family=Stalinist+One&family=Ubuntu+Condensed&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');body {
+    background-color: #FBFAF6;
+}
+
+header {
+    display: flex;
+    background-color: #f4f4f4;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 20px;
+    position: sticky;
+    margin-top: -10px;
+    margin-left: -10px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+header .logo {
+    font-family: 'Stalinist One', monospace;
+    font-size: 40px;
+    color: #000000;
+}
+
+header a {
+    font-family: 'Monomakh', monospace;
+    font-size: 40px;
+    color: #000000;
+    text-decoration: none;
+}
+
+header a:hover {
+    color: #333634;
+    text-decoration: underline;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    box-sizing: border-box;
+    margin-top: 50px;
+}
+
+.text-block {
+    display: flex;
+    flex-direction: column;
+}
+
+.content h1 {
+    font-family: 'Russo One', monospace;
+    font-size: 72px;
+    margin: 0;
+    line-height: 1;
+}
+
+.content .day {
+    font-family: 'Merriweather', monospace;
+    font-size: 72px;
+    font-style: italic;
+    margin: 0 0 15px 0;
+}
+
+.content .desc {
+    font-family: 'Roboto Flex', monospace;
+    font-size: 20px;
+    margin: 0 0 25px 10px;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.first_btn, .second_btn {
+    font-family: 'Roboto Flex', monospace;
+    font-size: 23px;
+    width: 230px;
+    height: 56px;
+    margin: 0;
+    cursor: pointer;
+}
+
+.first_btn {
+    background-color: #173D35;
+    color: #FFFFFF;
+    border: none;
+    margin-left: 10px;
+}
+
+.first_btn:hover {
+    background-color: #1B4B40;
+}
+
+.second_btn {
+    background-color: #DEDEDE;
+    color: #173D35;
+    border: 1px solid #173D35;
+}
+
+.second_btn:hover {
+    background-color: #EDEDED;
+}
+
+.content .coffe_main {
+    width: 498px;
+    height: 330px;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+
+.barista_box {
+    background-color: #DCE9E2;
+    color: #000000;
+    margin-top: 48px;
+    padding-top: 17px;
+    padding-bottom: 2px;
+    padding-left: -10px;
+}
+
+.barista_box h3 {
+    font-family: 'Ubuntu', monospace;
+    font-size: 24px;
+    color: #173D35;
+    margin-left: 39px;
+}
+
+.barista_box h2 {
+    font-family: 'Roboto Flex', monospace;
+    font-size: 64px;
+    font-style:normal;
+    margin-top: -25px;
+    margin-left: 64px;
+}
