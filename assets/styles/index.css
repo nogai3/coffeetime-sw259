@@ -332,6 +332,30 @@ footer {
     margin: 0 0 15px 0;
 }
 
+.footer-left a {
+    text-decoration: none;
+    font-family: 'Roboto Flex', monospace;
+    font-size: 17px;
+    color: #000000;
+}
+
+.footer-left a:hover {
+    text-decoration: underline;
+    color: #333333;
+}
+
+.footer-right a {
+    text-decoration: none;
+    font-family: 'Roboto Flex', monospace;
+    font-size: 17px;
+    color: #000000;
+}
+
+.footer-right a:hover {
+    text-decoration: underline;
+    color: #333333;
+}
+
 .contacts {
     display: flex;
     flex-direction: column;
